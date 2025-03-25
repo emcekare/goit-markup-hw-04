@@ -47,9 +47,7 @@ ul {
 
 /* Header */
 
-.page-start {
 
-}
 
 
 .page-start .container {
@@ -83,10 +81,13 @@ ul {
 .head-menu{
     display: flex;
     gap: 40px;
-    
-   
+    padding-right: 300px;
+   }
 
-}
+.head-menu-list {
+    display: flex;
+    gap: 24px;
+    }
 
 .head-menu-list>a {
 font-weight: 500;
@@ -293,17 +294,16 @@ display: flex;
 padding-top: 120px;
 padding-bottom: 120px;
 }
-text-align: center;
 
     
-           }
+   
 
 .portfolio-area .title {
        font-weight: 700;
         font-size: 36px;
         line-height: 111%;
         letter-spacing: 0.02em;
-        
+        text-align: center;
         color: #2e2f42;
         margin-bottom: 72px;
          
@@ -330,6 +330,9 @@ text-align: center;
         padding-top: 32px;
         padding-left: 16px;
         text-align: left;
+        border-right: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        
         
 }
 
@@ -343,13 +346,15 @@ text-align: center;
         padding-bottom: 32px;
         padding-left: 16px;
         text-align: left;
+        border-right: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
 }
 
 .portfolio-list {
     background-color: #fff;
-    border-bottom:1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
+    
+    
    
     }
 
