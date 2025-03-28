@@ -101,7 +101,7 @@ font-weight: 500;
 }
 
 .head-menu-list>a:hover, 
-.head-menu-list:focus {
+.head-menu-list>a:focus {
     color: #404bbf;
 }
 
@@ -110,10 +110,7 @@ font-weight: 500;
     text-decoration: underline;
 }
 
-.head-menu-list::after {
-    bottom: -5px;
-  
-}
+
 
 
 .head-contact {
@@ -229,6 +226,28 @@ display: flex;
     padding-top: 8px;
     }
 
+
+.first-paragraph-list .icon-container .icon {
+width: 64px;
+height: 64px;
+
+}
+
+
+.first-paragraph-list .icon-container{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+margin-bottom: 8px;
+height: 112px;
+background-color: #f4f4fd;
+border-radius: 4px;
+border: 1px solid rgba(142, 143, 153, 1)
+}
+
+
+
 /*section 1 bitti*/
 
 
@@ -295,6 +314,42 @@ display: flex;
     padding: 0px 0px 32px 0px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     }
+
+
+.team-list .icon-container .icon {
+  width: 16px;
+   height: 16px;
+       }
+
+
+.team-list .icon-container{
+    margin-top: 8px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  
+              }
+
+
+              .team-area .icon-list{
+                width: 40px;
+                height: 40px;
+                background-color: #4d5ae5;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                    align-items: center;      
+              }
+
+
+
+
+.team-list .icon-container :hover {
+        background-color: #404bbf;
+}
+
+
 
 /*team area bitti*/
 
@@ -390,10 +445,8 @@ padding-bottom: 120px;
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: #2e2f42;
-    display: flex;
-
-
-
+    justify-content: center;
+    
 }
 
 .footer-text {
@@ -423,6 +476,17 @@ padding-bottom: 120px;
 }
 
 
+.page-finish .icon-container .icon {
+    width: 24px;
+    height: 24px;
+}
+
+.page-finish .icon-container {
+display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Footer Bitti */
 
