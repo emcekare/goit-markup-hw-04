@@ -449,6 +449,14 @@ padding-bottom: 120px;
     
 }
 
+
+.footer-main-container {
+    display: flex;
+    max-width: 1158px;
+    
+}
+
+
 .footer-text {
 
     font-weight: 400;
@@ -476,9 +484,27 @@ padding-bottom: 120px;
 }
 
 
+.footer-title {
+    font-weight: 500;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: white;
+}
+
+
 .page-finish .icon-container .icon {
     width: 24px;
     height: 24px;
+}
+
+.icon-list-container {
+    padding-top: 16px;
+    margin-right: 515px;
+    display: flex;
+    gap: 24px;
+   
 }
 
 
@@ -487,10 +513,10 @@ padding-bottom: 120px;
     height: 40px;
     background-color: #4d5ae5;
     border-radius: 50%;
-    display: inline-block;
-    gap: 24px;
+    display: flex;
     justify-content: center;
-        align-items: center;      
+align-items: center;    
+       
   }
 
 
